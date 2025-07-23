@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "apple_website":"npx @tailwindcss/cli -i ./static/apple_website/styles/tailwind.css -o  ./static/apple_website/styles/style.css --watch",
+    "colorful_button":"npx @tailwindcss/cli -i ./static/colorful_button/styles/tailwind.css -o ./static/colorful_button/styles/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+  
+}
+

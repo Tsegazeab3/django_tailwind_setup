@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap");
+
+@layer utilities {
+  .section-custom {
+    @apply flex flex-col items-center pt-8 h-170 w-full;
+  }
+
+  .link-custom {
+    @apply text-2xl text-blue-500;
+  }
+
+  .link-custom-small {
+    @apply text-xl text-blue-500;
+  }
+
+  .font_custom {
+    font-family: "Montserrat", san-serif;
+  }
+
+  .font_custom_another {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .split-section-custom {
+    @apply flex flex-row p-8 h-170 w-screen;
+  }
+
+}

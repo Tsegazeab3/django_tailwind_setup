@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+		<link rel="stylesheet" href="{% static 'styles/style.css' %}?v={{time_stamps}}">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#fafafa]">
+	<header class = "flex flex-row justify-center items-center bg-black">
+		<ul class ="flex flex-none gap-18 p-4 text-white items-center [*]:font_custom">
+			<li class="list-none"><a href="/home/"><img class="h-6 w-[22px] object-contain" src="{% static './images/logo.png'%}" alt="apple-logo"></a></li>
+			<li class="list-none"><a href="/mac/" class="t-bold">Mac </a></li>
+			<li class="list-none"><a href="/iphone/">iphone</a></li>
+			<li class="list-none"><a href="/ipad/">ipad</a> </li>
+			<li class="list-none"><a href="/watch/">Watch</a></li>
+			<li class="list-none"><a href="/tv/">Tv</a></li>  
+			<li class="list-none"><a href="/music/">Music</a></li>
+			<li class="list-none"><a href="/support/">Support</a></li>
+			      
+			<li><a href="/home/"><img class="h-6 w-[22px] object-contain" src="{% static 'images/search-icon.png'%}" alt="search-logo"></a></li>
+			
+			<li><a href="/home/"><img class="h-6 w-[22px] object-contain" src="{% static 'images/cart.png'%}" alt="cart-logo"></a></li>
+
+		</ul>
+	</header>
+	<main>
+		<section class="section-custom after:bg-cover after:bg-no-repeat after:content-[''] after:h-109 after:w-140 after:bg-[url('../images/macbook-pro.jpg')]">
+				<div class="flex h-61 w-screen font_custom flex-col gap-1 space-between items-center" >
+				<h4 class="text-md font_custom">16-inch model</h4>
+				<h1 class="font-bold text-6xl font_custom">MacBook Pro</h1>
+				<h3 class="text-5xl font_custom">The best for the brightest</h3>
+				<div class="flex gap-4 mt-4">
+				<div class="link-custom font_custom"><a href="/learn-more/">Learn more > </a></div>
+				<div class="link-custom font_custom"><a href="/buy/">Buy > </a></div>
+				</div>
+				</div>
+		</section>
+		<section class="section-custom justify-start bg-[url('../images/iphone11-pro-bg.jpg')] bg-cover bg-center bg-no-repeat text-white ">
+				<div class="h-70 w-screen">
+					<div class="flex flex-col w-screen gap-1 items-center justify-start m-4" >
+					<h1 class="font-bold font_custom text-5xl">iPhone  11 Pro</h1>
+					<h3 class="font-bold text-2xl">Pro cameras, Pro display, pro performance</h3>
+					<h4 class="text-md">From $24.95/mo. or %599 with trade-in </h4>
+					</div>
+					<div class="flex gap-4 w-screen justify-center mt-4">
+					<div class="link-custom font_custom"><a href="/learn-more/">Learn more >  </a></div>
+					<div class="link-custom font_custom"><a href="/buy/">Buy > </a></div>
+					</div>
+				</div>
+		</section>
+		<section class="section-custom bg-[url('../images/iphone11-bg.jpg')] bg-cover bg-no-repeat bg-center">
+			<h1 class="font-bold font_custom text-6xl">iPhone 11</h1>
+			<h3 class="font_custom font-medium text-2xl">Just the right amount of everything</h3>
+			<h4 class="font_custom font-thin text-xl">From $16.62/mo. or $399 with trade‑in.</h4>
+
+			<div class="flex gap-4 w-screen justify-center mt-4">
+			<div class="link-custom font_custom"><a href="/learn-more/">Learn more >  </a></div>
+			<div class="link-custom font_custom"><a href="/buy/">Buy > </a></div>
+			</div>
+		</section>
+		<section class="split-section-custom gap-4">
+			<div class="flex-1 flex flex-col items-center justify-start bg-[url('../images/watch-series-5.jpg')] bg-cover bg-no-repeat bg-bottom">
+				<img class="h-15 object-contain" src="{% static 'images/watch-series5-logo.png'%}">
+				<h3 class="font_custom max-w-100 mt-5 text-xl flex-wrap text-center">With the new Always On Retina display You've never seen a watch like this</h3>
+				<div class="flex gap-4 justify-center mt-4">
+					<div class="link-custom-small font_custom "><a href="/learn-more/">Learn more >  </a></div>
+					<div class="link-custom-small font_custom"><a href="/buy/">Buy > </a></div>
+				</div>
+			</div>
+				<div class =" flex-1 flex flex-col justify-start items-center bg-[url('../images/apple-card.jpg')] bg-cover bg-no-repeat bg-center">
+				<img class="h-15 w-70 object-contain pl-auto" src="{% static 'images/apple-card-logo.png'%}">
+				<h3 class="text-center max-w-100 flex-wrap text-xl font_custom mt-2 ">can 3% Daily cash on purchases from Apple using Apple Card</h3>
+				<div class="flex gap-4 mt-4 justify-center">
+					<div class="link-custom-small font_custom"><a href="/learn-more/">Learn more >  </a></div>
+					<div class="link-custom-small font_custom"><a href="/buy/">Buy > </a></div>
+				</div>
+			</div>
+
+		</section>
+		<section class = "split-section-custom gap-4">
+			<div id="sec5_div1"  class="section-custom flex-1 justify-between bg-[url('../images/apple-tv-background.jpg')] bg-cover bg-no-repeat bg-center">
+					<img src="{% static 'images/apple-tv-logo.png'%}">
+					<img src="{% static 'images/servant-logo.png'%}">
+					<a href="/watch-logo/"> Watch the trailer</a>
+			</div>
+			<div class = "section-custom flex-1 justify-start bg-black after:content-[''] after:aspect-[301/384] after:bg-[url('../images/air-pods.jpg')] after:bg-cover after:bg-top after:h-100 after:overflow-hidden :bg-no-repeat  after:mt-auto after:mb-20">
+					<h1 class="font-bold text-4xl font_custom text-white">AirPods Pro</h1>
+					<h3 class="text-center max-w-100 flex-wrap text-xl font_custom mt-2 text-white">Magic like you've never heard</h3>
+					<div class="flex gap-4 mt-4 justify-center">
+					<div class="link-custom-small font_custom"><a href="/learn-more/">Learn more >  </a></div>
+					<div class="link-custom-small font_custom"><a href="/buy/">Buy > </a></div>
+					</div>
+
+			</div>
+		</section>
+		<section class = "split-section-custom gap-4">
+			<div class="section-custom flex-1 after:bg-no-repeat after:content-[''] after:h-100 after:w-140 after:overflow-hidden after:bg-[url('../images/macbook-pro.jpg')] after:bg-contain">
+				<div class="flex h-61 w-full font_custom flex-col gap-1 items-center">
+				<h4 class="text-md font_custom">16-inch model</h4>
+				<h1 class="font-bold text-5xl font_custom">MacBook Pro</h1>
+				<h3 class="text-xl font_custom">The best for the brightest</h3>
+				<div class="flex gap-4 mt-4">
+				<div class="link-custom font_custom"><a href="/learn-more/">Learn more > </a></div>
+				<div class="link-custom font_custom"><a href="/buy/">Buy > </a></div>
+				</div>
+			</div>
+			</div>
+			<div class = "section-custom flex-1 bg-[url('../images/new-ipad.jpg')] bg-cover bg-bottom bg-no-repeat">
+				<img src="{% static 'images/new-ipad-logo.png'%}">
+				<h3 class="text-xl font_custom mt-4">Like a computer. Unlike any computer</h3>
+				<div class="flex gap-4 mt-4">
+				<div class="link-custom font_custom"><a href="/learn-more/">Learn more > </a></div>
+				<div class="link-custom font_custom"><a href="/buy/">Buy > </a></div>
+				</div>
+
+			</div>
+		</section>
+	</main>
+	<footer class="h-170 w-full grid grid-rows-[200fr_600fr_126fr] bg-gray-100">
+	
+		<div class="row-start-1 row-end-2  p-10">
+				<p class="mr-auto ml-auto w-230 font_custom font-medium text-xs">1. Trade In: Trade‑in values vary. iPhone 11 and iPhone 11 Pro promotional pricing is after trade‑in of iPhone 8 Plus and iPhone X in good condition. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. Must be at least 18. Apple or its trade-in partners reserve the right to refuse or limit any Trade In transaction for any reason. In‑store trade‑in requires presentation of a valid, government-issued photo ID (local law may require saving this information). Sales tax may be assessed on full value of new iPhone. Additional terms from Apple or Apple’s trade-in partners may apply. Monthly pricing: Available to qualified customers and requires 0% APR, 24‑month installment loan with Citizens One, and iPhone activation with AT&T, Sprint, T‑Mobile, or Verizon. Full terms apply.</p>
+		</div>
+		<div class="row-start-2 row-end-3 pt-4 grid grid-cols-5 w-230 ml-auto mr-auto gap-x-25 border-t border-t-black">
+			<div>
+				<h3 class="font-bold text-sm mt-5 font_custom">shop and learn</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs">Mac</li>
+					<li class="font_custom text-xs">iPad</li>
+					<li class="font_custom text-xs">iPhone</li>
+					<li class="font_custom text-xs">Watch</li>
+					<li class="font_custom text-xs">TV</li>
+					<li class="font_custom text-xs">Music</li>
+					<li class="font_custom text-xs">AirPods</li>
+					<li class="font_custom text-xs">HomePod</li>
+					<li class="font_custom text-xs">iPod touch</li>
+					<li class="font_custom text-xs">Accessories</li>
+					<li class="font_custom text-xs">Gift Cards</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="font-bold text-sm mt-5 font_custom whitespace-nowrap overflow-hidden">Services</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs">Apple Music</li>
+					<li class="font_custom text-xs">Apple News+</li>
+					<li class="font_custom text-xs">Apple TV+</li>
+					<li class="font_custom text-xs">Apple Arcade</li>
+					<li class="font_custom text-xs">Apple Card</li>
+					<li class="font_custom text-xs">iCloud</li>
+					<li class="font_custom text-xs">Account</li>
+					<li class="font_custom text-xs whitespace-nowrap">Manage Your Apple ID</li>
+					<li class="font_custom text-xs">Apple Store Account</li>
+					<li class="font_custom text-xs">iCloud.com</li>
+				</ul>
+				<h3 class="font-bold text-sm mt-5 font_custom">Account</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs whitespace-nowrap">Manage Your Apple ID</li>
+					<li class="font_custom text-xs whitespace-nowrap">Apple Store Account</li>
+					<li class="font_custom text-xs">iCloud.com</lif>
+				</ul>
+			</div>
+			<div>
+				<h3 class="font-bold text-sm mt-5 font_custom">Apple Store</h3>
+				<ul class="space-y-2">
+					<li class = "font_custom text-xs">Find a Store</li>
+					<li class = "font_custom text-xs">Genius Bar</li>
+					<li class = "font_custom text-xs">Today at Apple</li>
+					<li class = "font_custom text-xs">Apple Camp</li>
+					<li class = "font_custom text-xs">Field Trip</li>
+					<li class = "font_custom text-xs">Apple Store App</li>
+					<li class = "font_custom text-xs whitespace-nowrap">Refurbished and Clearance</li>
+					<li class = "font_custom text-xs">Financing</li>
+					<li class = "font_custom text-xs">Apple Trade In</li>
+					<li class = "font_custom text-xs">Order Status</li>
+					<li class = "font_custom text-xs">Shopping Help</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="font-bold text-sm mt-5 font_custom">For Business</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs whitespace-nowrap">Apple and Business</li>
+					<li class="font_custom text-xs whitespace-nowrap">Shop for Business</li>
+				</ul>
+				<h3 class="font-bold text-sm mt-5 font_custom">For Education</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs whitespace-nowrap">Apple and Education</li>
+					<li class="font_custom text-xs">Shop for College</li>
+				</ul>
+				<h3 class="font-bold text-sm mt-5 font_custom whitespace-nowrap">For Healthcare</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs whitespace-nowrap">Manage Your Apple ID</li>
+					<li class="font_custom text-xs whitespace-nowrap">Apple Store Account</li>
+					<li class="font_custom text-xs">iCloud.com</li>
+				</ul>
+					<h3 class="font-bold text-sm mt-5 font_custom whitespace-nowrap">For Government</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs whitespace-nowrap">Apple and Education</li>
+					<li class="font_custom text-xs">Shop for College</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="font-bold text-sm mt-5 font_custom">Apple Values</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs">Find a Store</li>
+					<li class="font_custom text-xs">Genius Bar</li>
+					<li class="font_custom text-xs">Today at Apple</li>
+					<li class="font_custom text-xs">Apple Camp</li>
+					<li class="font_custom text-xs">Field Trip</li>
+					<li class="font_custom text-xs">Apple Store App</li>
+				</ul>
+				<h3 class="font-bold text-sm mt-5 font_custom">About Apple</h3>
+				<ul class="space-y-2">
+					<li class="font_custom text-xs">Find a Store</li>
+					<li class="font_custom text-xs">Genius Bar</li>
+					<li class="font_custom text-xs">Today at Apple</li>
+					<li class="font_custom text-xs">Apple Camp</li>
+					<li class="font_custom text-xs">Field Trip</li>
+					<li class="font_custom text-xs">Apple Store App</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+		<div class="row-start-3 row-end-4 border-t border-t-black">
+			<h1>something</h1>
+		</div>
+	{% load django_browser_reload %}
+	{% django_browser_reload_script %}
+</body>
+</html>
