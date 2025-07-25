@@ -5,8 +5,6 @@
 		{%load static%}
 	<link rel="stylesheet" href="{% static 'colorful_button/styles/style.css' %}?v={{time_stamps}}">
 </head>
-
-<body>
 <!--Requirements
 
 · Gradient border
@@ -16,21 +14,30 @@ Gradient is 115 degrees
 
 · Hover state
 
-Gradient colors flip horizontally
-Button grows slightly in size
-The text changes from gray to white
+ - Gradient colors flip horizontally
+ - Button grows slightly in size
+ - The text changes from gray to white
+· Center the button 
 
 Hints and Help
-· Gradient border effect can be accomplished
-using a wrapping div OR with the
-border-image property
+ - Gradient border effect can be accomplished
+ - using a wrapping div OR with the
+ - border-image property
+
 
 What to Research:
 
-· The linear-gradient function
-· border-image and border-image-slice
-· Center button on page-->
-		<h1 class="bg-amber-100">klsdjflaksjf</h1>
+ - The linear-gradient function
+ - border-image and border-image-slice
+ - Center button on page-->
+
+<body>
+		<div class="h-screen w-screen flex items-center justify-center">
+
+		<div class="group hover:h-55 hover:w-205 flex justify-center items-center h-50 w-200 bg-linear-115 from-red-600 to-yellow-500 hover:bg-linear-115 hover:to-red-600 hover:from-yellow-500"">
+			<h1 class="flex justify-center items-center h-46 w-196 bg-black text-gray-500 text-4xl group-hover:h-51 group-hover:w-200 group-hover:text-white">start-coding</h1>
+		</div>
+		</div>
 	{% load django_browser_reload %}
 	{% django_browser_reload_script %}
 </body>

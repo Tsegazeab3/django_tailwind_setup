@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+
+<head>
+		{%load static%}
+		<link rel="stylesheet" href="{% static "nav_bar/styles/style.css" %}">
+</head>
+
+<body>
+		<header>
+			<div class="fixed bg-amber-50 w-screen h-30">
+			<div class="flex justify-between">
+				<img src="{% static "nav_bar/images/south_something.jpg"%}">	
+				<ul class="flex bg-amber w-200 flex-row gap-4 justify-center">
+					<li class="list-none"><a class="text-black"href="#">home</a></li>
+					<li class="list-none"><a class="text-black"href="#">about</a></li>
+					<li class="list-none"><a class="text-black"href="#">Government</a></li>
+					<li class="list-none"><a class="text-black"href="#">news</a></li>
+					<li class="list-none"><a class="text-black"href="#">service</a></li>
+					<li class="list-none"><a class="text-black"href="#">programs</a></li>
+					<li class="list-none"><a class="text-black"href="#"> economy</a></li>
+					<li class="list-none"><a class="text-black"href="#">Gallery</a></li>
+					<li class="list-none"><a class="text-black"href="#">Resource</a></li>
+					<li class="list-none"><a class="text-black"href="#">contact</a></li>
+				</ul>
+			</div>
+		</header>
+
+	{% load django_browser_reload %}
+	{% django_browser_reload_script %}
+</body>
+<html>
