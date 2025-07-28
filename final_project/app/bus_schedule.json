@@ -1,0 +1,898 @@
+[
+  {
+    "bus_num": "1",
+    "origin": "Megenagna",
+    "through": "Gurd Shola",
+    "desination": "Kara",
+    "distance": "7.7 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "2",
+    "origin": "Kore Mekanisa",
+    "through": "Lideta",
+    "desination": "Merkato",
+    "distance": "11.1 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "3",
+    "origin": "Ayertena",
+    "through": "Mexico",
+    "desination": "Minilik Square",
+    "distance": "10.8 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "4",
+    "origin": "Kaliti",
+    "through": "Kira",
+    "desination": "Merkato",
+    "distance": "19.4 Km",
+    "price": "3.25"
+  },
+  {
+    "bus_num": "5",
+    "origin": "Kore Mekanisa",
+    "through": "Bisrategebreil",
+    "desination": "Minilik Square",
+    "distance": "12.7 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "6",
+    "origin": "Kera",
+    "through": "Shebel",
+    "desination": "Semen Addisu Gebeya",
+    "distance": "9.9 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "7",
+    "origin": "Megenagna",
+    "through": "Kotebe",
+    "desination": "Aleltu",
+    "distance": "49 Km",
+    "price": "10"
+  },
+  {
+    "bus_num": "8",
+    "origin": "Kechene",
+    "through": "Yohannes",
+    "desination": "Merkato",
+    "distance": "9.4 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "9",
+    "origin": "Birass Cilinic Bole School",
+    "through": "Kasanchiz",
+    "desination": "Piazza",
+    "distance": "10.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "10",
+    "origin": "Kotebe Teachers Collage",
+    "through": "Kebena",
+    "desination": "Piazza",
+    "distance": "12.7 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "11",
+    "origin": "Kolfe",
+    "through": "Atkilt tera",
+    "desination": "Minilik Hospital",
+    "distance": "10 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "12",
+    "origin": "Gurara",
+    "through": "Afncho ber",
+    "desination": "Merkato",
+    "distance": "9.9 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "13",
+    "origin": "Italy Embassy",
+    "through": "Sinima Ethipia",
+    "desination": "Merkato",
+    "distance": "9.9 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "14",
+    "origin": "Saris Abo",
+    "through": "Gandi",
+    "desination": "Minilik Square",
+    "distance": "12.3 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "15",
+    "origin": "Megenagna",
+    "through": "Abuare",
+    "desination": "Merkato",
+    "distance": "10.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "16",
+    "origin": "Kidanemihret",
+    "through": "Afnch Ber",
+    "desination": "Merkato",
+    "distance": "7.9 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "17",
+    "origin": "kusquam",
+    "through": "kidste Mariam",
+    "desination": "Merkato",
+    "distance": "9.1 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "18",
+    "origin": "keraniyo",
+    "through": "kolfe Dildy",
+    "desination": "Merkato",
+    "distance": "7.3 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "19",
+    "origin": "Asko",
+    "through": "Pawlos",
+    "desination": "Piazza",
+    "distance": "12.3 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "20",
+    "origin": "Dile Ber",
+    "through": "Enkulal Fabrica",
+    "desination": "Merkato",
+    "distance": "8.6 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "21",
+    "origin": "Flidoro",
+    "through": "kolfe Dildy",
+    "desination": "Merkato",
+    "distance": "8.6 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "22",
+    "origin": "Summit/codominium/",
+    "through": "22 mazoria",
+    "desination": "Legehar",
+    "distance": "12.3 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "23",
+    "origin": "Lamberet",
+    "through": "Afnch Ber",
+    "desination": "Merkato",
+    "distance": "12.4 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "24",
+    "origin": "Dire Sololia",
+    "through": "Pawlos",
+    "desination": "Merkato",
+    "distance": "15.9 Km",
+    "price": "2.7"
+  },
+  {
+    "bus_num": "25",
+    "origin": "Legehar",
+    "through": "Gotera",
+    "desination": "Akaki",
+    "distance": "19 Km",
+    "price": "3.25"
+  },
+  {
+    "bus_num": "26",
+    "origin": "Merkato",
+    "through": "Coca Coal",
+    "desination": "Sebeta",
+    "distance": "25.5 Km",
+    "price": "4.5"
+  },
+  {
+    "bus_num": "27",
+    "origin": "Legehar",
+    "through": "Gotera",
+    "desination": "Kaliti",
+    "distance": "14.9 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "28",
+    "origin": "Asko Sansuzi",
+    "through": "Mesalemia",
+    "desination": "Merkato",
+    "distance": "11.1 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "29",
+    "origin": "Addisu Sefer",
+    "through": "Teklehaimanot",
+    "desination": "Merkato",
+    "distance": "12.7 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "30",
+    "origin": "Sululta",
+    "through": "Semen Gegeya",
+    "desination": "Merkato",
+    "distance": "25.5 Km",
+    "price": "4.5"
+  },
+  {
+    "bus_num": "31",
+    "origin": "Legehar",
+    "through": "4 kilo",
+    "desination": "Shiromeda",
+    "distance": "7.4 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "32",
+    "origin": "Hana Mariyame Kotebe",
+    "through": "22 Mazoria",
+    "desination": "Legehar",
+    "distance": "10.6 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "33",
+    "origin": "Kotebe Gebiriel",
+    "through": "Kebena",
+    "desination": "4 Kilo",
+    "distance": "11.4 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "34",
+    "origin": "Germen Square",
+    "through": "Kera",
+    "desination": "Merkato",
+    "distance": "9.8 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "35",
+    "origin": "Lebu Musica bet",
+    "through": "Lafto",
+    "desination": "Merkato",
+    "distance": "15 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "36",
+    "origin": "Kara Kore",
+    "through": "Torhailoch",
+    "desination": "Legehar",
+    "distance": "11.7 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "37",
+    "origin": "Keraniyo",
+    "through": "Mexico",
+    "desination": "Mimilik Square",
+    "distance": "12 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "38",
+    "origin": "Lebu Musica Bete",
+    "through": "Minilik Square",
+    "desination": "6 Kilo",
+    "distance": "11 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "39",
+    "origin": "Bole School Medhanialem",
+    "through": "Kazanchiz",
+    "desination": "Merkato",
+    "distance": "9.6 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "40",
+    "origin": "Kara Alo",
+    "through": "4 kilo",
+    "desination": "Merkato",
+    "distance": "17.9 Km",
+    "price": "2.7"
+  },
+  {
+    "bus_num": "41",
+    "origin": "Eyesus Church",
+    "through": "4 kilo",
+    "desination": "Merkato",
+    "distance": "8.5 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "42",
+    "origin": "Megenagna",
+    "through": "Bole",
+    "desination": "Bole Legehare",
+    "distance": "9.8 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "43",
+    "origin": "Megenesha",
+    "through": "Mesalemia",
+    "desination": "Merkato",
+    "distance": "30.2 Km",
+    "price": "4.5"
+  },
+  {
+    "bus_num": "44",
+    "origin": "Legedadi",
+    "through": "4 kilo",
+    "desination": "Merkato",
+    "distance": "30.4 Km",
+    "price": "4.5"
+  },
+  {
+    "bus_num": "45",
+    "origin": "Legehar",
+    "through": "Piazza",
+    "desination": "Dilbere",
+    "distance": "8.6 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "46",
+    "origin": "Gergi",
+    "through": "22 mazoria",
+    "desination": "4 Kilo",
+    "distance": "11.2 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "47",
+    "origin": "Yenegew Fire School",
+    "through": "Mechael",
+    "desination": "Merkato",
+    "distance": "6 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "48",
+    "origin": "Bole Mikhael Square",
+    "through": "Gandi Hospital",
+    "desination": "Minilk Sqare",
+    "distance": "10.9 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "49",
+    "origin": "Ayat Condominium",
+    "through": "C.M.C",
+    "desination": "Megenagna",
+    "distance": "8.8 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "50",
+    "origin": "Ayeretena",
+    "through": "Torhailoch",
+    "desination": "Megenagna",
+    "distance": "12.1 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "51",
+    "origin": "Betel Hosipital",
+    "through": "Zenbwork",
+    "desination": "Merkato",
+    "distance": "10.9 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "52",
+    "origin": "Gergi",
+    "through": "Bole",
+    "desination": "Merkato",
+    "distance": "14.1 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "53",
+    "origin": "Bole Michael",
+    "through": "Meskel square",
+    "desination": "Shiromeda",
+    "distance": "11.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "54",
+    "origin": "Lafeto",
+    "through": "Kera",
+    "desination": "Leghar",
+    "distance": "9.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "55",
+    "origin": "Legehar",
+    "through": "4 kilo",
+    "desination": "Gurara",
+    "distance": "9.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "56",
+    "origin": "Saris Abo",
+    "through": "Meskel Square",
+    "desination": "Shiromeda",
+    "distance": "14.2 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "57",
+    "origin": "Kara",
+    "through": "22 Mazoria",
+    "desination": "Leghar",
+    "distance": "14.4 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "58",
+    "origin": "Alem Bank",
+    "through": "Torhailoch",
+    "desination": "Leghar",
+    "distance": "12 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "59",
+    "origin": "Betel Hospital",
+    "through": "Coca Cola",
+    "desination": "Mililik Sqare",
+    "distance": "11.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "60",
+    "origin": "Deber Zeit",
+    "through": "Gotera",
+    "desination": "Leghar",
+    "distance": "47.2 Km",
+    "price": "7.5"
+  },
+  {
+    "bus_num": "61",
+    "origin": "Ayat Condominium",
+    "through": "22 Mazoria",
+    "desination": "Leghar Through Kasanchis",
+    "distance": "15.8 Km",
+    "price": "2.7"
+  },
+  {
+    "bus_num": "62",
+    "origin": "Sebeta",
+    "through": "Torhailoch",
+    "desination": "Leghar",
+    "distance": "23.8 Km",
+    "price": "3.75"
+  },
+  {
+    "bus_num": "63",
+    "origin": "Merkato",
+    "through": "Atena Tera",
+    "desination": "Mikililand/Birechko fabrica",
+    "distance": "9.1 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "64",
+    "origin": "6 Kilo",
+    "through": "Kazanchiz",
+    "desination": "Megenagna Gorfe Aswegaj",
+    "distance": "9.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "65",
+    "origin": "Merkato",
+    "through": "Coca cola",
+    "desination": "Alem Bank",
+    "distance": "11 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "66",
+    "origin": "Merkato",
+    "through": "coca cola",
+    "desination": "Karakore",
+    "distance": "10.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "67",
+    "origin": "Mekanisa Jemo",
+    "through": "mexico",
+    "desination": "Legehar",
+    "distance": "10.2 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "68",
+    "origin": "Torhailoche",
+    "through": "Gibi Gebriel",
+    "desination": "Minlik Hospital",
+    "distance": "10.2 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "69",
+    "origin": "Philpos Church",
+    "through": "Mesalemia",
+    "desination": "Merkato",
+    "distance": "5.9 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "70",
+    "origin": "Kasanchis",
+    "through": "Mexico",
+    "desination": "Ayertena",
+    "distance": "11 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "71",
+    "origin": "Gerji",
+    "through": "Bole Tenatabia",
+    "desination": "Balcha Hospital",
+    "distance": "11 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "72",
+    "origin": "Hanamariam",
+    "through": "58 kebele",
+    "desination": "Saris Abo",
+    "distance": "3.8 Km",
+    "price": "1"
+  },
+  {
+    "bus_num": "73",
+    "origin": "Legehar",
+    "through": "Torhailoch",
+    "desination": "Wingate School",
+    "distance": "10.2 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "74",
+    "origin": "C.M.C Michael",
+    "through": "Tikur Anbessa",
+    "desination": "Merkato",
+    "distance": "13.3 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "75",
+    "origin": "6 Kilo",
+    "through": "Kazanchiz",
+    "desination": "Kera",
+    "distance": "10.4 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "76",
+    "origin": "Megenagna",
+    "through": "Zerihun bulding",
+    "desination": "Kaliti",
+    "distance": "18.4 Km",
+    "price": "2.7"
+  },
+  {
+    "bus_num": "77",
+    "origin": "Ayertena",
+    "through": "Sar bet",
+    "desination": "Kera",
+    "distance": "13 Km",
+    "price": "1"
+  },
+  {
+    "bus_num": "78",
+    "origin": "Megenagna",
+    "through": "Bherawi",
+    "desination": "Gofa Condo",
+    "distance": "12.4 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "79",
+    "origin": "4 Kilo",
+    "through": "Signal",
+    "desination": "Summit",
+    "distance": "12.7 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "80",
+    "origin": "Semen Gebeya",
+    "through": "Kazanchiz",
+    "desination": "Megenagna",
+    "distance": "12.4 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "81",
+    "origin": "6 Kilo",
+    "through": "Yohannes",
+    "desination": "Asko",
+    "distance": "13 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "82",
+    "origin": "Sefera Goro",
+    "through": "24 kebele",
+    "desination": "Balcha Hospital",
+    "distance": "14.6 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "83",
+    "origin": "Ayat Condominium",
+    "through": "kebena",
+    "desination": "6 Kilo",
+    "distance": "18 Km",
+    "price": "2.7"
+  },
+  {
+    "bus_num": "84",
+    "origin": "Kolfe",
+    "through": "Amanuel",
+    "desination": "Legehar",
+    "distance": "9.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "85",
+    "origin": "Merkato",
+    "through": "18 Mazoria",
+    "desination": "Holeta",
+    "distance": "45 Km",
+    "price": "7.5"
+  },
+  {
+    "bus_num": "86",
+    "origin": "Ayertena",
+    "through": "Mebrat Hail",
+    "desination": "Korki Fabrica",
+    "distance": "12.3 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "87",
+    "origin": "Wingate college",
+    "through": "Ketena 2",
+    "desination": "Ayertena",
+    "distance": "10.5 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "88",
+    "origin": "Merkato",
+    "through": "Piazza",
+    "desination": "Chancho",
+    "distance": "40 Km",
+    "price": "7.5"
+  },
+  {
+    "bus_num": "89",
+    "origin": "Merkato",
+    "through": "4 Kilo",
+    "desination": "Sendafa",
+    "distance": "44 Km",
+    "price": "7.5"
+  },
+  {
+    "bus_num": "90",
+    "origin": "Betel Hospital",
+    "through": "Torhailoch",
+    "desination": "Legehar",
+    "distance": "10 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "91",
+    "origin": "Merkato",
+    "through": "Torhailoch",
+    "desination": "Teji",
+    "distance": "52 Km",
+    "price": "10"
+  },
+  {
+    "bus_num": "92",
+    "origin": "Hanamariam",
+    "through": "Sar bet",
+    "desination": "Balcha Hospital",
+    "distance": "9.6 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "93",
+    "origin": "Bole Bulbula",
+    "through": "Bole Airport",
+    "desination": "Megenagna",
+    "distance": "15.2 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "94",
+    "origin": "Piazza",
+    "through": "Pawlos",
+    "desination": "Mekililand Birchko Fabrica",
+    "distance": "9.9 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "95",
+    "origin": "Merkato",
+    "through": "Fil Doro",
+    "desination": "Addisalem",
+    "distance": "47 Km",
+    "price": "7.5"
+  },
+  {
+    "bus_num": "96",
+    "origin": "Megenagna",
+    "through": "Anbessa Gerag",
+    "desination": "Goro Sefera",
+    "distance": "7 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "97",
+    "origin": "Megenagna",
+    "through": "Ayat",
+    "desination": "Legetafo",
+    "distance": "15.8 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "98",
+    "origin": "Dukem",
+    "through": "Gelan",
+    "desination": "Saris Abo",
+    "distance": "26.3 Km",
+    "price": "4.5"
+  },
+  {
+    "bus_num": "99",
+    "origin": "Ayertena",
+    "through": "Welete",
+    "desination": "Alemgena",
+    "distance": "8.3 Km",
+    "price": "1.4"
+  },
+  {
+    "bus_num": "100",
+    "origin": "Jemo Site",
+    "through": "Dese Hotel",
+    "desination": "Merkato",
+    "distance": "14.5 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "101",
+    "origin": "Megenagna",
+    "through": "Ayat",
+    "desination": "Yeka Ayat Con.1sq",
+    "distance": "12 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "102",
+    "origin": "Legehar",
+    "through": "Magenagna",
+    "desination": "Karalo",
+    "distance": "13.7 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "103",
+    "origin": "Jemo",
+    "through": "Mexico",
+    "desination": "Piazza",
+    "distance": "12.2 Km",
+    "price": "2.4"
+  },
+  {
+    "bus_num": "104",
+    "origin": "Kera",
+    "through": "wehalimat",
+    "desination": "Worku Sefer",
+    "distance": "12 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "105",
+    "origin": "Lagehar",
+    "through": "Holand Embasy",
+    "desination": "Anfo meda",
+    "distance": "12 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "106",
+    "origin": "Megenagna",
+    "through": "C.M.C.",
+    "desination": "Goro",
+    "distance": "10.8 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "107",
+    "origin": "Saris Abo",
+    "through": "Kality",
+    "desination": "Akaki korkoro Fabrica",
+    "distance": "11.4 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "108",
+    "origin": "Minilik square",
+    "through": "18 Mazoria",
+    "desination": "Asco Addisu Sefer",
+    "distance": "9.3 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "109",
+    "origin": "Saris Abo",
+    "through": "Kaliti",
+    "desination": "tulu dimtu",
+    "distance": "12 Km",
+    "price": "2"
+  },
+  {
+    "bus_num": "110",
+    "origin": "Akaki",
+    "through": "Meskel Square",
+    "desination": "6 kilo",
+    "distance": "24.9 Km",
+    "price": "4.5"
+  },
+  {
+    "bus_num": "111",
+    "origin": "Piazza",
+    "through": "Medhanialm school",
+    "desination": "Burayu",
+    "distance": "16.6 Km",
+    "price": "2.7"
+  },
+  {
+    "bus_num": "112",
+    "origin": "Circular Route",
+    "through": "Ring Road",
+    "desination": "Ring Road",
+    "distance": "–",
+    "price": "2"
+  }
+]

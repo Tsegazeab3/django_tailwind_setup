@@ -5,8 +5,7 @@
 		{%load static%}
 		<link rel="stylesheet" href={% static "city_portal/styles/style.css"%}>
 </head>
-
-<body>
+<div>
 		<header class="flex sticky justify-between items-center h-15 w-screen  bg-[#37393A] p-6 opacity-100">
 			<div class="w-40">
 				<a class="block h-15 w-20 items-center justify-center bg-[url('../images/addis_log.png')] bg-cover bg-center"></a>
@@ -15,8 +14,8 @@
 				<ul class="flex items-center gap-4 ">
 					<li class="text-white">News</li>
 					<li class="text-white"> Public Transportaion</li>
-					<li class="text-white"> Public safety & Emergency</lic>
-					<li class="text-white"> Community & Engagement</licl>
+					<li class="text-white"> Public safety & Emergency</li>
+					<li class="text-white"> Community & Engagement</li>
 				</ul>
 			</div>
 			<div class="flex  gap-4">
@@ -25,6 +24,7 @@
 			</div>
 		</header>
 		<main>
+			<div>
 			<div class="flex flex-col justify-center items-center w-screen h-140 bg-cover bg-center bg-[url('../images/addis_page1_bg.png')]">
 				<div class="relative bottom-14 right-1  bg-linear-180 from-[#a6a6a6]/40 to-[#ffffff]/40 rounded-3xl flex justify-center items-center  h-30 w-200">
 					<h1 class="text-6xl text-center ">Welcome to Addis Ababa City</h1>
@@ -55,41 +55,59 @@
 					<p class="flex-wrap text-lg relative bottom-6">Addis Ababa is the capital city of Ethiopia and one of the highest capitals in the world, sitting at about 2,355 meters above sea level. It was founded in 1886 by Emperor Menelik II and means "new flower" in Amharic. The city serves as the political, cultural, and economic center of the country. It is home to the African Union headquarters and numerous international organizations. Addis Ababa is known for its diverse population, vibrant markets, and historic landmarks like the National Museum and Holy Trinity Cathedral. Despite rapid development, the city still preserves elements of its rich cultural heritage.</p>
 				</div>
 			</div>
-			<div class="">
+			<div>
 				<h1 class="text-center my-8 text-3xl">City Services & Information </h1>
-				<div class="flex flex-row justify-center gap-8 h-50 w-screen mx-auto">
-				<div class=" border border-black h-80 w-80 rounded-2xl flex">
-						<img>
-						<img></img>
-						<p>Access bus schedules, route maps, ticket information, and real time updates for all public transportation services</p>
-							<ul>
-							<li> Bus schedules and routes</li>
-							<li>online ticket booking</li>
-							<li>service updates and alerts</li>
-							</ul>
+				<div class=" px-12 flex flex-row justify-center gap-8 h-50 w-screen mx-auto">
+					<div class=" px-4 py-8 border border-black h-90 flex-1 rounded-xl flex flex-col justify-start">
+						<div class="h-12 w-12 bg-[url('../images/transportation_logo.png')] bg-cover"></div>
+						<h1 class="mt-4 text-xl font-medium" > Public transportation </h1>
 
-				</div>
-				<div class=" border border-black h-80 w-80 rounded-2xl flex">
-												<img>
-						<img></img>
-						<p>Access bus schedules, route maps, ticket information, and real time updates for all public transportation services</p>
-							<ul>
-							<li> Bus schedules and routes</li>
-							<li>online ticket booking</li>
-							<li>service updates and alerts</li>
-							</ul>
-				</div>
-				<div class=" border border-black h-80 w-80 rounded-2xl flex">
-						<img>
-						<p>Access bus schedules, route maps, ticket information, and real time updates for all public transportation services</p>
-						<ul>
-						<li> Bus schedules and routes</li>
-						<li>online ticket booking</li>
-						<li>service updates and alerts</li>
+						<p class="mt-4 text-start">Access bus schedules, route maps, ticket information, and real time updates for all public transportation services</p>
+						<ul class="mt-4 list-disc list-inside">
+							<li class="list-disc">Bus schedules and routes</li>
+							<li class="list-disc ">online ticket booking</li>
+							<li class="list-disc">service updates and alerts</li>
 						</ul>
+					</div>
+					<div class=" px-4 py-8 border border-black h-90 flex-1 rounded-2xl flex flex-col justify-start">
+						<div class="h-12 w-12 bg-[url('../images/property_logo.png')] bg-cover"></div>
+						<h1 class="mt-4 text-xl font-medium">Property Tax & Assessement</h1>
+						<p class="mt-4 text-start">Addis Ababa property tax information, payment options, assessment records, and related legal documentation.</p>
+						<ul class="mt-4 list-inside list-disc">
+							<li>Tax payment portal</li>
+							<li>Property assessment records</li>
+							<li>Legal amendments and updates</li>
+						</ul>
+					</div>
+					<div class=" px-4 py-8 border border-black h-90  flex-1 rounded-2xl flex flex-col justify-start">
+						<div class="mb-4 h-12 w-12 bg-[url('../images/amendment_logo.png')] bg-cover"></div>
+						<h1 class=" text-xl font-medium">Latest Amendments</h1>
+						<p class="mt-4 text-start">Stay updated with the latest legal amendments, policy changes, and regulatory updates affecting city residents.</p>
+						<ul class="mt-4 list-inside list-disc">
+							<li>Recent policy changes</li>
+							<li>Legal document updates</li>
+							<li>Regulatory announcements</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			</main>
+			</div>
+		</div>
+			<div class="flex bg-gray-400">
+				<article class="flex flex-col ">
+					<section class="flex-1">
+					</section>
+					<section class="flex-1">
+					</section>
+				</article>
+				<div class="flex gap-4 bg-gray-100">
+					<div class="flex-1 "></div>
+					<div class="flex-1 "></div>
+					<div class="flex-1 "></div>
+				</div>
+			</div>
+
+		</main>
 	{% load django_browser_reload %}
 	{% django_browser_reload_script %}
 </body>

@@ -39,3 +39,4 @@ def apple_website(request):
         print('bad response')
         return None
 
+
