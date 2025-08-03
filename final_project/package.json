@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "apple_website":"npx @tailwindcss/cli -i ./static/apple_website/styles/tailwind.css -o  ./static/apple_website/styles/style.css --watch",
-"city_portal":"npx @tailwindcss/cli -i ./static/city_portal/styles/tailwind.css -o ./static/city_portal/styles/style.css --watch",
-"nav_bar":"npx @tailwindcss/cli -i ./static/nav_bar/styles/tailwind.css -o ./static/nav_bar/styles/style.css --watch",
+    "learning_react":"npx @tailwindcss/cli -i ./static/learning_react/styles/tailwind.css -o ./static/learning_react/styles/style.css --watch",
+    "city_portal":"npx @tailwindcss/cli -i ./static/city_portal/styles/tailwind.css -o ./static/city_portal/styles/style.css --watch",
+    "nav_bar":"npx @tailwindcss/cli -i ./static/nav_bar/styles/tailwind.css -o ./static/nav_bar/styles/style.css --watch",
     "colorful_button":"npx @tailwindcss/cli -i ./static/colorful_button/styles/tailwind.css -o ./static/colorful_button/styles/style.css --watch"
   },
   "keywords": [],

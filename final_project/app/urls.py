@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     path("", views.city_portal, name="city_portal"),
+path("home/learning_react", views.learning_react, name="learning_react"),
     path("home/",views.home, name="home"),
     path("home/city_portal", views.city_portal, name="city_portal"),
     path("home/nav_bar", views.nav_bar, name="nav_bar"),

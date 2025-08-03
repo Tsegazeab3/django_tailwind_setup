@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from time import time
+from . import models
 
 # Create your views here.
 def home(request):
@@ -8,6 +9,14 @@ def home(request):
     else:
         print('bad response')
         return None
+
+def learning_react(request):
+	if request.method == "GET":
+		return render(request, 'learning_react.html', {'time_stamps': int(time())})
+	else:
+		print('bad response')
+		return None
+
 
 def city_portal(request):
 	if request.method == "GET":
@@ -39,4 +48,7 @@ def apple_website(request):
         print('bad response')
         return None
 
-
+def get_pictures(request):
+	if request.method == "GET":
+		picture = 
+		return()
